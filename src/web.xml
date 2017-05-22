@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    version="2.5">
+    <display-name>Quartz-LIBIN</display-name>
+    <servlet> 
+	  <servlet-name>QuartzInitializer</servlet-name> 
+	  <servlet-class>com.QuartzInit</servlet-class> 
+	  <init-param>
+	    <param-name>shutdown-on-unload</param-name>
+	    <param-value>true</param-value>
+	  </init-param>
+	  <load-on-startup>2</load-on-startup>
+	</servlet>
+</web-app>

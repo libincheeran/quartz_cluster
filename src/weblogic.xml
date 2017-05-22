@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Copyright (c) 2011-2015 PDX Inc. All Rights Reserved -->
+<!-- This software contains trade secrets and proprietary information of National Health Systems, Inc., -->
+<!-- and its subsidiaries and affiliates, and use of this software is governed by the terms and conditions -->
+<!-- of the respective licenses, service agreements, and other applicable agreements.  All other uses of -->
+<!-- this software are expressly prohibited. -->
+<weblogic-web-app 
+	xmlns="http://www.bea.com/ns/weblogic/90" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.bea.com/ns/weblogic/90 http://www.bea.com/ns/weblogic/90/weblogic-web-app.xsd">
+</weblogic-web-app>
